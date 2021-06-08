@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jfree.data.statistics.junit.DataStatisticsPackageTests" time="0.028" tests="69" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/yangchijiang/WorkSpace/msproject/proFL/examples/Chart-20"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/yangchijiang/WorkSpace/msproject/proFL/examples/Chart-20"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/lb/kp5bclbn66sd2h4jv2zqzj9r0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="https.protocols" value="TLSv1.2"/>
+    <property name="classworlds.conf" value="/usr/local/maven/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/yangchijiang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/maven/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="library.jansi.path" value="/usr/local/maven/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="user.home" value="/Users/yangchijiang"/>
+    <property name="user.timezone" value="Australia/Melbourne"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="yangchijiang"/>
+    <property name="java.class.path" value="/usr/local/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dhttps.protocols=TLSv1.2"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.ext.dirs" value="/Users/yangchijiang/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/maven/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testCalculateQ1" classname="org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests" time="0"/>
+  <testcase name="testCalculateQ3" classname="org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests" time="0"/>
+  <testcase name="testCalculateBoxAndWhiskerStatistics" classname="org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests" time="0"/>
+  <testcase name="test1593149" classname="org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.data.statistics.junit.BoxAndWhiskerItemTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.data.statistics.junit.BoxAndWhiskerItemTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests" time="0"/>
+  <testcase name="testAdd" classname="org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests" time="0"/>
+  <testcase name="testAddUpdatesCachedRange" classname="org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests" time="0"/>
+  <testcase name="test1701822" classname="org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests" time="0"/>
+  <testcase name="testGetRangeBounds" classname="org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests" time="0"/>
+  <testcase name="testRemove" classname="org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests" time="0"/>
+  <testcase name="testConstructor" classname="org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests" time="0"/>
+  <testcase name="testAdd" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0"/>
+  <testcase name="testGetRangeLowerBound" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0"/>
+  <testcase name="testGetRangeBounds2" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0"/>
+  <testcase name="testGetRangeBounds" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0"/>
+  <testcase name="testSerialization1" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0.004"/>
+  <testcase name="testSerialization2" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0"/>
+  <testcase name="testRemove" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0"/>
+  <testcase name="testGetRangeUpperBound" classname="org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.data.statistics.junit.HistogramBinTests" time="0.004"/>
+  <testcase name="testCloning" classname="org.jfree.data.statistics.junit.HistogramBinTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.data.statistics.junit.HistogramBinTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.data.statistics.junit.HistogramDatasetTests" time="0.006"/>
+  <testcase name="testBins" classname="org.jfree.data.statistics.junit.HistogramDatasetTests" time="0"/>
+  <testcase name="test1553088" classname="org.jfree.data.statistics.junit.HistogramDatasetTests" time="0"/>
+  <testcase name="testBinBoundaries" classname="org.jfree.data.statistics.junit.HistogramDatasetTests" time="0"/>
+  <testcase name="testGetSeriesKey" classname="org.jfree.data.statistics.junit.HistogramDatasetTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.data.statistics.junit.HistogramDatasetTests" time="0"/>
+  <testcase name="testAddSeries" classname="org.jfree.data.statistics.junit.HistogramDatasetTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.data.statistics.junit.HistogramDatasetTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.data.statistics.junit.MeanAndStandardDeviationTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.data.statistics.junit.MeanAndStandardDeviationTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.data.statistics.junit.MeanAndStandardDeviationTests" time="0"/>
+  <testcase name="testPowerRegression1a" classname="org.jfree.data.statistics.junit.RegressionTests" time="0.001"/>
+  <testcase name="testPowerRegression1b" classname="org.jfree.data.statistics.junit.RegressionTests" time="0"/>
+  <testcase name="testPowerRegression2a" classname="org.jfree.data.statistics.junit.RegressionTests" time="0"/>
+  <testcase name="testPowerRegression2b" classname="org.jfree.data.statistics.junit.RegressionTests" time="0"/>
+  <testcase name="testOLSRegression1a" classname="org.jfree.data.statistics.junit.RegressionTests" time="0"/>
+  <testcase name="testOLSRegression1b" classname="org.jfree.data.statistics.junit.RegressionTests" time="0"/>
+  <testcase name="testOLSRegression2a" classname="org.jfree.data.statistics.junit.RegressionTests" time="0"/>
+  <testcase name="testOLSRegression2b" classname="org.jfree.data.statistics.junit.RegressionTests" time="0"/>
+  <testcase name="testAccepts" classname="org.jfree.data.statistics.junit.SimpleHistogramBinTests" time="0.01"/>
+  <testcase name="testSerialization" classname="org.jfree.data.statistics.junit.SimpleHistogramBinTests" time="0"/>
+  <testcase name="testOverlapsWidth" classname="org.jfree.data.statistics.junit.SimpleHistogramBinTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.data.statistics.junit.SimpleHistogramBinTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.data.statistics.junit.SimpleHistogramBinTests" time="0"/>
+  <testcase name="testRemoveAllBins" classname="org.jfree.data.statistics.junit.SimpleHistogramDatasetTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.data.statistics.junit.SimpleHistogramDatasetTests" time="0.001"/>
+  <testcase name="testClearObservations" classname="org.jfree.data.statistics.junit.SimpleHistogramDatasetTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.data.statistics.junit.SimpleHistogramDatasetTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.data.statistics.junit.SimpleHistogramDatasetTests" time="0"/>
+  <testcase name="testCalculateMean_Array" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testCorrelation1" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testCorrelation2" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testCalculateMedian" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0.002"/>
+  <testcase name="testCalculateMean_Collection" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testCalculateMedian1" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testCalculateMedian2" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testCalculateMedian3" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testCalculateMedian4" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testCalculateMedian5" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testCalculateMedian6" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+  <testcase name="testGetStdDev" classname="org.jfree.data.statistics.junit.StatisticsTests" time="0"/>
+</testsuite>

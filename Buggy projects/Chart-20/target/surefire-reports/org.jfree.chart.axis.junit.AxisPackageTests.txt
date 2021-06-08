@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jfree.chart.axis.junit.AxisPackageTests
+-------------------------------------------------------------------------------
+Tests run: 176, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.032 sec - in org.jfree.chart.axis.junit.AxisPackageTests

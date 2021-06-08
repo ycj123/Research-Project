@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jfree.chart.axis.junit.AxisPackageTests" time="3.988" tests="176" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/yangchijiang/WorkSpace/msproject/proFL/examples/Chart-20"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/yangchijiang/WorkSpace/msproject/proFL/examples/Chart-20"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/lb/kp5bclbn66sd2h4jv2zqzj9r0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="https.protocols" value="TLSv1.2"/>
+    <property name="classworlds.conf" value="/usr/local/maven/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/yangchijiang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/maven/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="library.jansi.path" value="/usr/local/maven/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="user.home" value="/Users/yangchijiang"/>
+    <property name="user.timezone" value="Australia/Melbourne"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="yangchijiang"/>
+    <property name="java.class.path" value="/usr/local/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dhttps.protocols=TLSv1.2"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.ext.dirs" value="/Users/yangchijiang/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/maven/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.AxisLocationTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.AxisLocationTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.AxisLocationTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.AxisSpaceTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.AxisSpaceTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.AxisSpaceTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.AxisTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.AxisTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.AxisTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.CategoryAnchorTests" time="0.002"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.CategoryAnchorTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.CategoryAnchorTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.CategoryAxisTests" time="0.005"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.CategoryAxisTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.CategoryAxisTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.CategoryAxisTests" time="0.002"/>
+  <testcase name="testCloning2" classname="org.jfree.chart.axis.junit.CategoryAxisTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.CategoryAxis3DTests" time="0.002"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.CategoryAxis3DTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.CategoryLabelPositionTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.CategoryLabelPositionTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.CategoryLabelPositionTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.CategoryLabelPositionsTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.CategoryLabelPositionsTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.CategoryLabelPositionsTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.CategoryTickTests" time="0.003"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.CategoryTickTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.CategoryTickTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.CategoryTickTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.CyclicNumberAxisTests" time="0.012"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.CyclicNumberAxisTests" time="0.002"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.CyclicNumberAxisTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.CyclicNumberAxisTests" time="0.005"/>
+  <testcase name="testSetMaximumDate" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.019"/>
+  <testcase name="testPreviousStandardDateHourA" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.004"/>
+  <testcase name="testPreviousStandardDateHourB" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.002"/>
+  <testcase name="testPreviousStandardDateYearA" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.003"/>
+  <testcase name="testPreviousStandardDateYearB" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.002"/>
+  <testcase name="testPreviousStandardDateMonthA" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.005"/>
+  <testcase name="testPreviousStandardDateMonthB" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.004"/>
+  <testcase name="testPreviousStandardDateDayA" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.003"/>
+  <testcase name="testPreviousStandardDateDayB" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.002"/>
+  <testcase name="testJava2DToValue" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.001"/>
+  <testcase name="test1472942" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.001"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.001"/>
+  <testcase name="testPreviousStandardDateSecondA" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.003"/>
+  <testcase name="testPreviousStandardDateSecondB" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.003"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.002"/>
+  <testcase name="testSetMinimumDate" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.001"/>
+  <testcase name="testPreviousStandardDateMillisecondA" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.004"/>
+  <testcase name="testPreviousStandardDateMillisecondB" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.002"/>
+  <testcase name="testSetRange" classname="org.jfree.chart.axis.junit.DateAxisTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.DateTickTests" time="0.002"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.DateTickTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.DateTickTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.DateTickTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.DateTickMarkPositionTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.DateTickMarkPositionTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.DateTickMarkPositionTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.DateTickUnitTests" time="0.008"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.DateTickUnitTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.DateTickUnitTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.ExtendedCategoryAxisTests" time="0.003"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.ExtendedCategoryAxisTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.ExtendedCategoryAxisTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.ExtendedCategoryAxisTests" time="0"/>
+  <testcase name="testCloning2" classname="org.jfree.chart.axis.junit.ExtendedCategoryAxisTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0.004"/>
+  <testcase name="testAutoRange1" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0.001"/>
+  <testcase name="testAutoRange3" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0.002"/>
+  <testcase name="testSetLowerBound" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0"/>
+  <testcase name="testXYAutoRange1" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0.004"/>
+  <testcase name="testXYAutoRange2" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0.001"/>
+  <testcase name="testTranslateJava2DToValue" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0.003"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0.001"/>
+  <testcase name="testTickMarksVisibleDefault" classname="org.jfree.chart.axis.junit.LogAxisTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.LogarithmicAxisTests" time="0.006"/>
+  <testcase name="testValueToJava2D" classname="org.jfree.chart.axis.junit.LogarithmicAxisTests" time="0"/>
+  <testcase name="testJava2DToValue" classname="org.jfree.chart.axis.junit.LogarithmicAxisTests" time="0.001"/>
+  <testcase name="testSwitchedLog10" classname="org.jfree.chart.axis.junit.LogarithmicAxisTests" time="0.001"/>
+  <testcase name="testAdjustedLog10" classname="org.jfree.chart.axis.junit.LogarithmicAxisTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.MarkerAxisBandTests" time="0.002"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.MarkerAxisBandTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.MarkerAxisBandTests" time="0"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.MonthDateFormatTests" time="0.01"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.MonthDateFormatTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.MonthDateFormatTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.MonthDateFormatTests" time="0.01"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.002"/>
+  <testcase name="testAutoRange1" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.001"/>
+  <testcase name="testAutoRange2" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.001"/>
+  <testcase name="testAutoRange3" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.001"/>
+  <testcase name="testAutoRange4" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.001"/>
+  <testcase name="testSetLowerBound" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0"/>
+  <testcase name="testXYAutoRange1" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.001"/>
+  <testcase name="testXYAutoRange2" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.001"/>
+  <testcase name="testTranslateJava2DToValue" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.001"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.NumberAxisTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.NumberAxis3DTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.NumberTickUnitTests" time="0.001"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.NumberTickUnitTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.NumberTickUnitTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.NumberTickUnitTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.PeriodAxisTests" time="0.008"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.PeriodAxisTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.PeriodAxisTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.PeriodAxisTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests" time="0.001"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests" time="0.001"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.QuarterDateFormatTests" time="0.002"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.QuarterDateFormatTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.QuarterDateFormatTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.QuarterDateFormatTests" time="0.001"/>
+  <testcase name="testMondayThroughFridayIncludedAndExcludedSegments" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.003"/>
+  <testcase name="testMondayThroughFridayInc" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.113"/>
+  <testcase name="testMs2Segment" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0"/>
+  <testcase name="testMs2IncludedAndExcludedSegments" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.002"/>
+  <testcase name="testMs2BaseTimelineTranslations" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.276"/>
+  <testcase name="testMsExceptionSegments" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.004"/>
+  <testcase name="testMsSegmentedTimeline" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.029"/>
+  <testcase name="testMsInc" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.066"/>
+  <testcase name="testMsTranslations" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.279"/>
+  <testcase name="testMsSegment" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.002"/>
+  <testcase name="testMsIncludedAndExcludedSegments" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.002"/>
+  <testcase name="testBasicSegmentedTimeline" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.001"/>
+  <testcase name="testFifteenMinIncludedAndExcludedSegments" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.004"/>
+  <testcase name="testMs2Translations" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="1.899"/>
+  <testcase name="testSegmentedTimelineWithException1" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0"/>
+  <testcase name="testFifteenMinExceptionSegments" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.004"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0"/>
+  <testcase name="testFifteenMinSegmentedTimeline" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0"/>
+  <testcase name="testMondayThroughFridaySegment" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.031"/>
+  <testcase name="testFifteenMinSegment" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.002"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.001"/>
+  <testcase name="testMondayThroughFridaySegmentedTimeline" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0"/>
+  <testcase name="testMs2SegmentedTimeline" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.001"/>
+  <testcase name="testMs2Inc" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.008"/>
+  <testcase name="testSerialization2" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.001"/>
+  <testcase name="testMs2BaseTimelineExceptionSegments" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.001"/>
+  <testcase name="testMondayThoughFridayExceptionSegments" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.002"/>
+  <testcase name="testFifteenMinInc" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="0.008"/>
+  <testcase name="testFifteenMinTranslations" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests" time="1.005"/>
+  <testcase name="test1" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests2" time="0.004"/>
+  <testcase name="test2" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests2" time="0"/>
+  <testcase name="test3" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests2" time="0"/>
+  <testcase name="test4" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests2" time="0"/>
+  <testcase name="test5" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests2" time="0"/>
+  <testcase name="test6" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests2" time="0.001"/>
+  <testcase name="test7" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests2" time="0"/>
+  <testcase name="test8" classname="org.jfree.chart.axis.junit.SegmentedTimelineTests2" time="0.001"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.SubCategoryAxisTests" time="0.003"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.SubCategoryAxisTests" time="0"/>
+  <testcase name="testHashCode" classname="org.jfree.chart.axis.junit.SubCategoryAxisTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.SubCategoryAxisTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.SymbolAxisTests" time="0.004"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.SymbolAxisTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.SymbolAxisTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.axis.junit.TickUnitsTests" time="0.003"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.TickUnitsTests" time="0.005"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.TickUnitsTests" time="0"/>
+  <testcase name="testAxisMargins" classname="org.jfree.chart.axis.junit.ValueAxisTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.chart.axis.junit.ValueAxisTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.axis.junit.ValueAxisTests" time="0.005"/>
+</testsuite>

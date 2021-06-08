@@ -1,0 +1,260 @@
+// 
+// Decompiled by Procyon v0.5.36
+// 
+
+package org.netbeans.lib.cvsclient.connection;
+
+public class StandardScrambler implements Scrambler
+{
+    private int[] shifts;
+    public static StandardScrambler instance;
+    
+    private StandardScrambler() {
+        this.shifts = new int[256];
+        int i;
+        for (i = 0; i < 32; ++i) {
+            this.shifts[i] = i;
+        }
+        this.shifts[i++] = 114;
+        this.shifts[i++] = 120;
+        this.shifts[i++] = 53;
+        this.shifts[i++] = 79;
+        this.shifts[i++] = 96;
+        this.shifts[i++] = 109;
+        this.shifts[i++] = 72;
+        this.shifts[i++] = 108;
+        this.shifts[i++] = 70;
+        this.shifts[i++] = 64;
+        this.shifts[i++] = 76;
+        this.shifts[i++] = 67;
+        this.shifts[i++] = 116;
+        this.shifts[i++] = 74;
+        this.shifts[i++] = 68;
+        this.shifts[i++] = 87;
+        this.shifts[i++] = 111;
+        this.shifts[i++] = 52;
+        this.shifts[i++] = 75;
+        this.shifts[i++] = 119;
+        this.shifts[i++] = 49;
+        this.shifts[i++] = 34;
+        this.shifts[i++] = 82;
+        this.shifts[i++] = 81;
+        this.shifts[i++] = 95;
+        this.shifts[i++] = 65;
+        this.shifts[i++] = 112;
+        this.shifts[i++] = 86;
+        this.shifts[i++] = 118;
+        this.shifts[i++] = 110;
+        this.shifts[i++] = 122;
+        this.shifts[i++] = 105;
+        this.shifts[i++] = 41;
+        this.shifts[i++] = 57;
+        this.shifts[i++] = 83;
+        this.shifts[i++] = 43;
+        this.shifts[i++] = 46;
+        this.shifts[i++] = 102;
+        this.shifts[i++] = 40;
+        this.shifts[i++] = 89;
+        this.shifts[i++] = 38;
+        this.shifts[i++] = 103;
+        this.shifts[i++] = 45;
+        this.shifts[i++] = 50;
+        this.shifts[i++] = 42;
+        this.shifts[i++] = 123;
+        this.shifts[i++] = 91;
+        this.shifts[i++] = 35;
+        this.shifts[i++] = 125;
+        this.shifts[i++] = 55;
+        this.shifts[i++] = 54;
+        this.shifts[i++] = 66;
+        this.shifts[i++] = 124;
+        this.shifts[i++] = 126;
+        this.shifts[i++] = 59;
+        this.shifts[i++] = 47;
+        this.shifts[i++] = 92;
+        this.shifts[i++] = 71;
+        this.shifts[i++] = 115;
+        this.shifts[i++] = 78;
+        this.shifts[i++] = 88;
+        this.shifts[i++] = 107;
+        this.shifts[i++] = 106;
+        this.shifts[i++] = 56;
+        this.shifts[i++] = 36;
+        this.shifts[i++] = 121;
+        this.shifts[i++] = 117;
+        this.shifts[i++] = 104;
+        this.shifts[i++] = 101;
+        this.shifts[i++] = 100;
+        this.shifts[i++] = 69;
+        this.shifts[i++] = 73;
+        this.shifts[i++] = 99;
+        this.shifts[i++] = 63;
+        this.shifts[i++] = 94;
+        this.shifts[i++] = 93;
+        this.shifts[i++] = 39;
+        this.shifts[i++] = 37;
+        this.shifts[i++] = 61;
+        this.shifts[i++] = 48;
+        this.shifts[i++] = 58;
+        this.shifts[i++] = 113;
+        this.shifts[i++] = 32;
+        this.shifts[i++] = 90;
+        this.shifts[i++] = 44;
+        this.shifts[i++] = 98;
+        this.shifts[i++] = 60;
+        this.shifts[i++] = 51;
+        this.shifts[i++] = 33;
+        this.shifts[i++] = 97;
+        this.shifts[i++] = 62;
+        this.shifts[i++] = 77;
+        this.shifts[i++] = 84;
+        this.shifts[i++] = 80;
+        this.shifts[i++] = 85;
+        this.shifts[i++] = 223;
+        this.shifts[i++] = 225;
+        this.shifts[i++] = 216;
+        this.shifts[i++] = 187;
+        this.shifts[i++] = 166;
+        this.shifts[i++] = 229;
+        this.shifts[i++] = 189;
+        this.shifts[i++] = 222;
+        this.shifts[i++] = 188;
+        this.shifts[i++] = 141;
+        this.shifts[i++] = 249;
+        this.shifts[i++] = 148;
+        this.shifts[i++] = 200;
+        this.shifts[i++] = 184;
+        this.shifts[i++] = 136;
+        this.shifts[i++] = 248;
+        this.shifts[i++] = 190;
+        this.shifts[i++] = 199;
+        this.shifts[i++] = 170;
+        this.shifts[i++] = 181;
+        this.shifts[i++] = 204;
+        this.shifts[i++] = 138;
+        this.shifts[i++] = 232;
+        this.shifts[i++] = 218;
+        this.shifts[i++] = 183;
+        this.shifts[i++] = 255;
+        this.shifts[i++] = 234;
+        this.shifts[i++] = 220;
+        this.shifts[i++] = 247;
+        this.shifts[i++] = 213;
+        this.shifts[i++] = 203;
+        this.shifts[i++] = 226;
+        this.shifts[i++] = 193;
+        this.shifts[i++] = 174;
+        this.shifts[i++] = 172;
+        this.shifts[i++] = 228;
+        this.shifts[i++] = 252;
+        this.shifts[i++] = 217;
+        this.shifts[i++] = 201;
+        this.shifts[i++] = 131;
+        this.shifts[i++] = 230;
+        this.shifts[i++] = 197;
+        this.shifts[i++] = 211;
+        this.shifts[i++] = 145;
+        this.shifts[i++] = 238;
+        this.shifts[i++] = 161;
+        this.shifts[i++] = 179;
+        this.shifts[i++] = 160;
+        this.shifts[i++] = 212;
+        this.shifts[i++] = 207;
+        this.shifts[i++] = 221;
+        this.shifts[i++] = 254;
+        this.shifts[i++] = 173;
+        this.shifts[i++] = 202;
+        this.shifts[i++] = 146;
+        this.shifts[i++] = 224;
+        this.shifts[i++] = 151;
+        this.shifts[i++] = 140;
+        this.shifts[i++] = 196;
+        this.shifts[i++] = 205;
+        this.shifts[i++] = 130;
+        this.shifts[i++] = 135;
+        this.shifts[i++] = 133;
+        this.shifts[i++] = 143;
+        this.shifts[i++] = 246;
+        this.shifts[i++] = 192;
+        this.shifts[i++] = 159;
+        this.shifts[i++] = 244;
+        this.shifts[i++] = 239;
+        this.shifts[i++] = 185;
+        this.shifts[i++] = 168;
+        this.shifts[i++] = 215;
+        this.shifts[i++] = 144;
+        this.shifts[i++] = 139;
+        this.shifts[i++] = 165;
+        this.shifts[i++] = 180;
+        this.shifts[i++] = 157;
+        this.shifts[i++] = 147;
+        this.shifts[i++] = 186;
+        this.shifts[i++] = 214;
+        this.shifts[i++] = 176;
+        this.shifts[i++] = 227;
+        this.shifts[i++] = 231;
+        this.shifts[i++] = 219;
+        this.shifts[i++] = 169;
+        this.shifts[i++] = 175;
+        this.shifts[i++] = 156;
+        this.shifts[i++] = 206;
+        this.shifts[i++] = 198;
+        this.shifts[i++] = 129;
+        this.shifts[i++] = 164;
+        this.shifts[i++] = 150;
+        this.shifts[i++] = 210;
+        this.shifts[i++] = 154;
+        this.shifts[i++] = 177;
+        this.shifts[i++] = 134;
+        this.shifts[i++] = 127;
+        this.shifts[i++] = 182;
+        this.shifts[i++] = 128;
+        this.shifts[i++] = 158;
+        this.shifts[i++] = 208;
+        this.shifts[i++] = 162;
+        this.shifts[i++] = 132;
+        this.shifts[i++] = 167;
+        this.shifts[i++] = 209;
+        this.shifts[i++] = 149;
+        this.shifts[i++] = 241;
+        this.shifts[i++] = 153;
+        this.shifts[i++] = 251;
+        this.shifts[i++] = 237;
+        this.shifts[i++] = 236;
+        this.shifts[i++] = 171;
+        this.shifts[i++] = 195;
+        this.shifts[i++] = 243;
+        this.shifts[i++] = 233;
+        this.shifts[i++] = 253;
+        this.shifts[i++] = 240;
+        this.shifts[i++] = 194;
+        this.shifts[i++] = 250;
+        this.shifts[i++] = 191;
+        this.shifts[i++] = 155;
+        this.shifts[i++] = 142;
+        this.shifts[i++] = 137;
+        this.shifts[i++] = 245;
+        this.shifts[i++] = 235;
+        this.shifts[i++] = 163;
+        this.shifts[i++] = 242;
+        this.shifts[i++] = 178;
+        this.shifts[i++] = 152;
+    }
+    
+    public static Scrambler getInstance() {
+        if (StandardScrambler.instance == null) {
+            StandardScrambler.instance = new StandardScrambler();
+        }
+        return StandardScrambler.instance;
+    }
+    
+    public String scramble(final String s) {
+        final StringBuffer sb = new StringBuffer("A");
+        if (s != null) {
+            for (int i = 0; i < s.length(); ++i) {
+                sb.append((char)(byte)(this.shifts[s.charAt(i) & '\u00ff'] & 0xFF));
+            }
+        }
+        return sb.toString();
+    }
+}

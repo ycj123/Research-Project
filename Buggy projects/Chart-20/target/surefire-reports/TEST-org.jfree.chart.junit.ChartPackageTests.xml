@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jfree.chart.junit.ChartPackageTests" time="0.418" tests="105" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/yangchijiang/WorkSpace/msproject/proFL/examples/Chart-20"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/yangchijiang/WorkSpace/msproject/proFL/examples/Chart-20"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/lb/kp5bclbn66sd2h4jv2zqzj9r0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="https.protocols" value="TLSv1.2"/>
+    <property name="classworlds.conf" value="/usr/local/maven/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/yangchijiang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/maven/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="library.jansi.path" value="/usr/local/maven/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="user.home" value="/Users/yangchijiang"/>
+    <property name="user.timezone" value="Australia/Melbourne"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="yangchijiang"/>
+    <property name="java.class.path" value="/usr/local/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dhttps.protocols=TLSv1.2"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.ext.dirs" value="/Users/yangchijiang/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/maven/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.AreaChartTests" time="0.006"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.AreaChartTests" time="0.001"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.AreaChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.AreaChartTests" time="0.002"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.BarChartTests" time="0.007"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.BarChartTests" time="0"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.BarChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.BarChartTests" time="0.001"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.BarChart3DTests" time="0.009"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.BarChart3DTests" time="0.001"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.BarChart3DTests" time="0"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.BarChart3DTests" time="0.003"/>
+  <testcase name="testConstructor1" classname="org.jfree.chart.junit.ChartPanelTests" time="0.136"/>
+  <testcase name="testGetListeners" classname="org.jfree.chart.junit.ChartPanelTests" time="0.006"/>
+  <testcase name="testSetChart" classname="org.jfree.chart.junit.ChartPanelTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.junit.ChartRenderingInfoTests" time="0.001"/>
+  <testcase name="testCloning" classname="org.jfree.chart.junit.ChartRenderingInfoTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.junit.ChartRenderingInfoTests" time="0"/>
+  <testcase name="testSerialization2" classname="org.jfree.chart.junit.ChartRenderingInfoTests" time="0.001"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.GanttChartTests" time="0.007"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.GanttChartTests" time="0.001"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.GanttChartTests" time="0.001"/>
+  <testcase name="testDrawWithNullInfo2" classname="org.jfree.chart.junit.GanttChartTests" time="0.015"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.GanttChartTests" time="0.001"/>
+  <testcase name="testHashCodeForDoubleArray" classname="org.jfree.chart.junit.HashUtilitiesTests" time="0.001"/>
+  <testcase name="testEquals2" classname="org.jfree.chart.junit.JFreeChartTests" time="0.002"/>
+  <testcase name="testSubtitleCount" classname="org.jfree.chart.junit.JFreeChartTests" time="0.001"/>
+  <testcase name="testLegendEvents" classname="org.jfree.chart.junit.JFreeChartTests" time="0"/>
+  <testcase name="testTitleChangeEvent" classname="org.jfree.chart.junit.JFreeChartTests" time="0.001"/>
+  <testcase name="testGetSubtitle" classname="org.jfree.chart.junit.JFreeChartTests" time="0"/>
+  <testcase name="testAddSubtitle" classname="org.jfree.chart.junit.JFreeChartTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.jfree.chart.junit.JFreeChartTests" time="0.004"/>
+  <testcase name="testGetSubtitles" classname="org.jfree.chart.junit.JFreeChartTests" time="0.001"/>
+  <testcase name="testSerialization1" classname="org.jfree.chart.junit.JFreeChartTests" time="0.005"/>
+  <testcase name="testSerialization2" classname="org.jfree.chart.junit.JFreeChartTests" time="0.003"/>
+  <testcase name="testSerialization3" classname="org.jfree.chart.junit.JFreeChartTests" time="0.004"/>
+  <testcase name="testSerialization4" classname="org.jfree.chart.junit.JFreeChartTests" time="0.034"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.junit.LegendItemTests" time="0.003"/>
+  <testcase name="testCloning" classname="org.jfree.chart.junit.LegendItemTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.junit.LegendItemTests" time="0.001"/>
+  <testcase name="testSerialization2" classname="org.jfree.chart.junit.LegendItemTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.jfree.chart.junit.LegendItemCollectionTests" time="0.001"/>
+  <testcase name="testCloning" classname="org.jfree.chart.junit.LegendItemCollectionTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.junit.LegendItemCollectionTests" time="0.001"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.LineChartTests" time="0.01"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.LineChartTests" time="0.001"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.LineChartTests" time="0.003"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.LineChartTests" time="0.002"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.LineChart3DTests" time="0.008"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.LineChart3DTests" time="0.001"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.LineChart3DTests" time="0"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.LineChart3DTests" time="0.001"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.MeterChartTests" time="0.003"/>
+  <testcase name="testGetPaint" classname="org.jfree.chart.junit.PaintMapTests" time="0"/>
+  <testcase name="testPut" classname="org.jfree.chart.junit.PaintMapTests" time="0"/>
+  <testcase name="testKeysOfDifferentClasses" classname="org.jfree.chart.junit.PaintMapTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.chart.junit.PaintMapTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.junit.PaintMapTests" time="0.001"/>
+  <testcase name="testSerialization1" classname="org.jfree.chart.junit.PaintMapTests" time="0.002"/>
+  <testcase name="testSerialization2" classname="org.jfree.chart.junit.PaintMapTests" time="0.001"/>
+  <testcase name="testReplaceDatasetOnPieChart" classname="org.jfree.chart.junit.PieChartTests" time="0.002"/>
+  <testcase name="testNullValueInDataset" classname="org.jfree.chart.junit.PieChart3DTests" time="0.025"/>
+  <testcase name="testReplaceDatasetOnPieChart" classname="org.jfree.chart.junit.PieChart3DTests" time="0.002"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.ScatterPlotTests" time="0.004"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.ScatterPlotTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.ScatterPlotTests" time="0.003"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.StackedAreaChartTests" time="0.006"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.StackedAreaChartTests" time="0.001"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.StackedAreaChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.StackedAreaChartTests" time="0.001"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.StackedBarChartTests" time="0.004"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.StackedBarChartTests" time="0.001"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.StackedBarChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.StackedBarChartTests" time="0.002"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.StackedBarChart3DTests" time="0.011"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.StackedBarChart3DTests" time="0"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.StackedBarChart3DTests" time="0"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.StackedBarChart3DTests" time="0.002"/>
+  <testcase name="testPut" classname="org.jfree.chart.junit.StrokeMapTests" time="0"/>
+  <testcase name="testCloning" classname="org.jfree.chart.junit.StrokeMapTests" time="0"/>
+  <testcase name="testEquals" classname="org.jfree.chart.junit.StrokeMapTests" time="0.001"/>
+  <testcase name="testGetStroke" classname="org.jfree.chart.junit.StrokeMapTests" time="0"/>
+  <testcase name="testSerialization1" classname="org.jfree.chart.junit.StrokeMapTests" time="0"/>
+  <testcase name="testSerialization2" classname="org.jfree.chart.junit.StrokeMapTests" time="0.001"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.TimeSeriesChartTests" time="0.003"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.TimeSeriesChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.TimeSeriesChartTests" time="0.002"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.WaterfallChartTests" time="0.006"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.WaterfallChartTests" time="0.001"/>
+  <testcase name="testSetSeriesURLGenerator" classname="org.jfree.chart.junit.WaterfallChartTests" time="0"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.XYAreaChartTests" time="0.003"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.XYAreaChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.XYAreaChartTests" time="0.002"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.XYBarChartTests" time="0.003"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.XYBarChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.XYBarChartTests" time="0.003"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.XYLineChartTests" time="0.003"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.XYLineChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.XYLineChartTests" time="0.001"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.XYStepAreaChartTests" time="0.004"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.XYStepAreaChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.XYStepAreaChartTests" time="0.001"/>
+  <testcase name="testDrawWithNullInfo" classname="org.jfree.chart.junit.XYStepChartTests" time="0.003"/>
+  <testcase name="testSetSeriesToolTipGenerator" classname="org.jfree.chart.junit.XYStepChartTests" time="0.001"/>
+  <testcase name="testReplaceDataset" classname="org.jfree.chart.junit.XYStepChartTests" time="0.002"/>
+</testsuite>
