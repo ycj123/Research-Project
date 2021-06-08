@@ -1,0 +1,3 @@
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper.translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I: NONE_FIX-0.5773502691896258
+org.apache.commons.lang3.text.translate.CharSequenceTranslator.translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V: NONE_FIX-0.22360679774997896
+org.apache.commons.lang3.text.translate.CharSequenceTranslator.translate(Ljava/lang/CharSequence;)Ljava/lang/String;: NONE_FIX-0.19611613513818404
